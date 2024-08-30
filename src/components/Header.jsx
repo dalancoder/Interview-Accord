@@ -3,8 +3,8 @@ import {Container} from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Container>
-        <h1 className='title'>REACT INTERVİEW QUESTIONS AND ANSWERS</h1>
+    <Container className='d-flex mt-5'>
+        <h1 className='title'>React Interview Questions And Answers</h1>
     </Container>
   )
 }

@@ -8,9 +8,17 @@ body{
 }
 .title{
     text-align: center;
-    font-family:monospace;
-    font-variant: small-caps !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
     color: red;
+    background-color: rgba(240, 248, 255, 0.397);
+    display: inline-block;
+    margin: auto;
+    padding: 5px 50px;
+    border-radius: 20px;
+   
+   
+    
 }
 .text-box{
     width: 60%;
@@ -27,11 +35,12 @@ body{
     display: flex;
     justify-content:space-between;
     padding: 20px;
+    text-shadow: 1px 1px 1px white;
     
 }
 .answer-box{
     color: aliceblue;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     font-size: 1.5rem;
 }
