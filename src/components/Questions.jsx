@@ -18,7 +18,7 @@ const Questions = ({data}) => {
           <div className='text-box'>
             <h3 className='question-box'>
                 {data.question} 
-                {show? <span onClick={handleUp}>{arrowup}</span>: <span onClick={handleDown}>{arrowdown}</span> 
+                {show? <span className='arrowup' onClick={handleUp}>{arrowup}</span>: <span className="arrowdown" onClick={handleDown}>{arrowdown}</span> 
                 }
                 
             </h3>
